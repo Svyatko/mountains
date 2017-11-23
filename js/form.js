@@ -6,8 +6,8 @@ function sendForm(event) {
 	    url: "https://formspree.io/svatoslav2104@gmail.com", 
 	    method: "POST",
 	    data: {
-	    	name: $('.client-name').val(),
-	    	email: $('client-email').val(),
+	    	name: $('#client-name').val(),
+	    	email: $('#client-email').val(),
 	    	msg: $('#text-msg').val()
 	    },
 	    dataType: "json"
