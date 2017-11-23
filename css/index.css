@@ -1,0 +1,98 @@
+body {
+	background: url("../images/moutain-bg.jpg") no-repeat;
+	background-size: cover;	
+}
+
+ul {
+	list-style-type: none;
+	height: 30%;
+	margin-bottom: 0;
+}
+
+ul.hidden {
+	display: none;
+	width: 30%;
+	background-color: #ffffff;
+	opacity: 0.6;
+	position: absolute;
+}
+
+nav.row {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+	color: #2E2E2E;
+	font-weight: bold;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+li {
+	width: 100%;
+}
+
+main {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+main img{
+	border-radius: 100%;
+	max-width: 250px;
+	margin-left: 85px;
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+	background-color: #E7E7E7;
+}
+
+button.hamburger {	
+	align-self: flex-start;
+}
+
+.container {
+	background-color: #fff;
+	opacity: 0.9; 
+	width: 50%;
+	margin-right: 85px;
+	position: relative;
+    padding: 67px;
+}
+
+.container p {
+	text-align: justify;
+	color: black;
+	font-weight: bold;
+}
+
+.icons {
+	align-self: center;
+	margin-right: 25px;
+	opacity: 0.8;
+}
+
+.burger {
+	display: flex;
+}
+
+.container .active {
+    display: block;
+}
+
+.container div {
+	display: none;
+}
+
+form {
+	max-width: 100%;
+}
+
+.btn {
+	margin-top: 10px;
+}

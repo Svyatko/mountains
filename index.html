@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<link href="dist/hamburgers.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/index.css">
+		<title>Mountains Page</title>
+	</head>
+	<body>
+		
+		<header>
+			<div class="burger">
+				<button class="hamburger hamburger--collapse row" type="button">
+				  <span class="hamburger-box">
+				    <span class="hamburger-inner"></span>
+				  </span>
+				</button>
+				<ul class="hidden">
+					<li><a data-panel="panel-1" href="#">Home</a></li>
+					<li><a data-panel="panel-2" href="#">Portfolio</a></li>
+					<li><a data-panel="panel-3" href="#">Contact</a></li>
+				</ul>
+			</div>
+			<div class="icons">
+				<a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-linux" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>				
+				<a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a>
+			</div>	
+		</header>
+
+		<main>
+			<div class="main-img">
+				<img src="images/main-pic.jpg" alt="">
+			</div>
+			<div class="container">
+				
+				<div id="panel-1" class="active">
+					<h1>Sviatoslav Terletskyi</h1>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				</div>
+				<div id="panel-2">
+					<h1>Portfolio</h1>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				</div>
+				<div id="panel-3">
+					<h1>Contacts</h1>
+					<p>You can leave you message here or follow me in social networks up there</p>
+					<form class="form-inp">
+						<label>
+							<input class="form-control" type="text" name="client-name" 
+							placeholder="Type your name" required>
+						</label>
+						<label>
+							<input class="form-control" type="email" name="client-email" 
+							placeholder="Type your email" required>
+						</label>
+					    <label for="text-msg">Leave your massage here and i'll call you soon;)</label>
+					    <textarea class="form-control" id="text-msg" rows="3" required></textarea>
+					    <button type="submit" class="btn btn-primary">Send</button>
+					</form>
+				</div>
+			</div>
+		</main>
+
+
+
+
+		<script src="http://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script src="https://use.fontawesome.com/33c1d5b149.js"></script>
+		<script src="js/index.js"></script>
+		<script src="js/form.js"></script>
+	</body>
+</html>
