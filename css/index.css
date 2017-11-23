@@ -1,6 +1,16 @@
-body {
-	background: url("../images/moutain-bg.jpg") no-repeat;
-	background-size: cover;	
+html, body {
+	background: url("../images/moutain-bg.jpg");
+	background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    right: 0;
+}
+
+header, main {
+	max-width: 95%;
+	margin: 0 auto;
 }
 
 ul {
@@ -8,7 +18,7 @@ ul {
 	height: 30%;
 	margin-bottom: 0;
 	position: absolute;
-	left: 50px;
+	left: 80px;
 }
 
 ul.hidden {
@@ -115,6 +125,7 @@ footer {
 
 	main img {
 		position: static;
+		margin: 10px auto;
 	}
 
 	.container.div {
